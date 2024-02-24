@@ -9,7 +9,7 @@ public class Fibonassi {
 		int b = 1;
 		int res = 0 ;
 		
-		System.out.print("0"+" 1");
+		System.out.print(a+" "+b);
 		
 		for(int i = 0; i < n ; i++)
 		{
