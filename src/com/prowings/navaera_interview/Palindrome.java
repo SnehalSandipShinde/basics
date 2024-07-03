@@ -4,6 +4,12 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		String str = "Radar";
+		
+		StringBuffer stb = new StringBuffer(str);
+		
+		stb.reverse();
+		System.out.println(stb);
+		
 		int len = str.length();
 
 		System.out.println(len);
